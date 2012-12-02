@@ -9,4 +9,6 @@ class User < ActiveRecord::Base
   attr_accessible :email, :password, :password_confirmation, :remember_me
   attr_accessible :avatar, :email, :name, :password
   has_one :store
+  has_and_belongs_to_many :roles
+
 end
