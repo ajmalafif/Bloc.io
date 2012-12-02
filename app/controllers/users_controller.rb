@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
 
-  before_filter :authenticate_user!, :except => [:some_action_without_auth]
+  before_filter :authenticate_user!
 
   def index
     @user = User.all
@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   end
 
   def new
+    @user = User.new
   end
 
   def create
