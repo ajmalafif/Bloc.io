@@ -1,0 +1,3 @@
+== Bloc.io project
+
+Practicing and learning by doing personal projects.

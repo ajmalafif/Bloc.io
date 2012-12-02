@@ -1,0 +1,41 @@
+USER
+ name
+ password
+ email
+ shopping cart
+
+- shopper
+    + has_many :products
+- seller
+    + has_one :shop
+
+PRODUCT
+ name
+ price
+ size
+ description
+ stock
+ image
+
+ store_id
+ category_id
+
+Store
+ product_id
+ category_id
+ name
+ avatar
+ bio
+ user_id?(followers)
+
+ Market
+  store_id
+  product_id
+  category_id
+
+  Follow
+   follower
+   following
+
+Category
+ name
