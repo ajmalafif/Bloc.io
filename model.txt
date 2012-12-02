@@ -16,6 +16,7 @@ PRODUCT
  description
  stock
  image
+ type
 
  store_id
  category_id
