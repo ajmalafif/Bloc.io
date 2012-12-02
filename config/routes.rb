@@ -1,4 +1,5 @@
 Bazaar::Application.routes.draw do
+
   get "users/index"
 
   get "users/show"
@@ -12,6 +13,9 @@ Bazaar::Application.routes.draw do
   get "users/update"
 
   get "users/destroy"
+
+  devise_for :users
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
