@@ -8,22 +8,22 @@ class UsersController < ApplicationController
   end
 
   def show
-     @user = User.find(params[:id])
+     @users = User.find(params[:id])
   end
 
   def new
-    @user = User.new
+    @usersuser  = User.new
   end
 
-  # def create
-  # end
+  def create
+  end
 
-  # def edit
-  # end
+  def edit
+  end
 
-  # def update
-  # end
+  def update
+  end
 
-  # def destroy
-  # end
+  def destroy
+  end
 end
