@@ -8,11 +8,11 @@ class UsersController < ApplicationController
   end
 
   def show
-     @users = User.find(params[:id])
+     @user = User.find(params[:id])
   end
 
   def new
-    @usersuser  = User.new
+    @user  = User.new
   end
 
   def create
