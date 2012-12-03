@@ -11,19 +11,22 @@ class UsersController < ApplicationController
      @user = User.find(params[:id])
   end
 
-  def new
-    @user  = User.new
-  end
+## Handled by Devise I guess
 
-  def create
-  end
 
-  def edit
-  end
+  # def new
+  #   @user  = User.new
+  # end
 
-  def update
-  end
+  # def create
+  # end
 
-  def destroy
-  end
+  # def edit
+  # end
+
+  # def update
+  # end
+
+  # def destroy
+  # end
 end
